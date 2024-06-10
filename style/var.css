@@ -1,0 +1,12 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --grey: #101010;
+  --green: #23c3b2;
+
+  --font-family-bold: "SF UI Display Bold", sans-serif;
+  --font-family-light: "SF UI Display Light", sans-serif;
+  --font-family-medium: "SF UI Display Medium", sans-serif;
+
+  --height-screen: 100vh;
+}

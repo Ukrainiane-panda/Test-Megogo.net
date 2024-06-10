@@ -1,0 +1,25 @@
+.button {
+  width: 200px;
+  height: 55px;
+  border: 1px solid var(--green);
+  border-radius: 5px;
+  opacity: 0px;
+  background-color: var(--green);
+
+  font-family:  var(--font-family-medium);
+  font-size: 11px;
+  line-height: 13.13px;
+  letter-spacing: 1.2999999523162842px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+
+  cursor: pointer;
+  transition: transform 0.3s;
+
+  &:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border-color: var(--white);
+  }
+}

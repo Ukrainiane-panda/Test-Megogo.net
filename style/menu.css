@@ -1,0 +1,39 @@
+.menu {
+  box-sizing: border-box;
+  background-color: var(--black);
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.menu__list {
+  display: block;
+  list-style: none;
+  margin: 0 0 40px;
+  padding: 0;
+}
+
+.menu__link {
+  display: inline-block;
+  padding-bottom: 8px;
+  border-bottom: 1px solid transparent;
+  color: var(--white);
+  text-decoration: none;
+  font-family: var(--font-family-medium);
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: border-color 0.3s;
+
+  &:hover {
+    border-color: var(--green);
+  }
+}
+
+.menu__item {
+  margin-bottom: 24px;
+}
+
+.menu__item:last-child {
+  margin-bottom: 0;
+}

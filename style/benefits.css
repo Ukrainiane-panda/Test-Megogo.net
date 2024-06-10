@@ -1,0 +1,42 @@
+.benefits {
+  padding-top: 90px;
+  background: var(--grey);
+}
+
+.benefits__title {
+  font-family: var(--font-family-bold);
+  font-size: 24px;
+  line-height: 28.64px;
+  text-align: left;
+  margin-bottom: 30px;
+
+}
+
+.benefits__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 52px;
+}
+
+.benefits__items {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.benefits__item h4 {
+  font-family: var(--font-family-bold);  
+  font-size: 20px;
+  line-height: 23.87px;
+}
+
+.benefits__item p {
+  font-family: var(--font-family-light);
+  font-size: 15px;
+  line-height: 17.9px;
+}
+
+.benefits__button {
+  margin-bottom: 132px;
+}

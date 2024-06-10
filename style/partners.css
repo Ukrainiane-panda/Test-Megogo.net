@@ -1,0 +1,38 @@
+.partners {
+  padding-top: 92px;
+  background: var(--grey);
+}
+
+.partners__description {
+  opacity: 80%;
+}
+
+.wrapper {
+  margin-left: 50px;
+  margin-right: 16px;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.partners__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 73%;
+  background: linear-gradient(179.79deg, rgba(16, 16, 16, 0) 37.5%, #101010 90.39%);
+}

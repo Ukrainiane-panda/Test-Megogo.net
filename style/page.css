@@ -1,0 +1,27 @@
+.page {
+  position: relative;
+  max-width: 600px;
+  margin-inline: auto;
+  background: var(--black);
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+.page__menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateX(-200%);
+  transition: transform 0.3s;
+  overflow: auto;
+  z-index: 1;
+
+  &:target {
+    transform: translateX(0);
+  }
+}
+
+.page--with-menu {
+  overflow: hidden;
+}

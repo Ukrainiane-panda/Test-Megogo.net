@@ -1,0 +1,31 @@
+.icon {
+  display: flex;
+}
+
+.icon--center {
+  justify-content: center;
+} 
+
+.icon__block {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+}
+
+.icon__block--menu {
+  background-image: url(../images/Menu.svg);
+  width: 16px;
+  height: 12px;
+}
+
+.icon__block--cross {
+  background-image: url(../images/cross.svg);
+  width: 16px;
+  height: 16px;
+}
+
+.icon__block--link {
+  background-image: url(../images/Vector-Stroke.svg);
+  width: 14px;
+  height: 7.5px;
+}

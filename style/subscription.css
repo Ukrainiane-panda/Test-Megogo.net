@@ -1,0 +1,112 @@
+.subscription {
+  position: relative;
+  height: var(--height-screen);
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  background-image: url(../images/subscription.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 8px solid var(--green);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscription__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subscription::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1));
+  pointer-events: none;
+}
+
+.subscription__header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 109px;
+}
+
+.subscription__label {
+  font-family: var(--font-family-light);
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.subscription__type,
+.subscription__price {
+  font-family: var(--font-family-bold);
+  font-size: 24px;
+  line-height: 28.64px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.subscription__title {
+  font-family: var(--font-family-bold);
+  font-size: 36px;
+  line-height: 42.96px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.subscription__description {
+  font-family: var(--font-family-light);
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.subscription__button {
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.subscription__offer {
+  margin-bottom: 20px;
+  font-family: var(--font-family-light);
+  font-size: 12px;
+  line-height: 14.32px;
+  letter-spacing: 0.8333333134651184px;
+  text-align: left;
+  color: #FFFFFF99;
+}
+
+.subscription__details-link {
+  font-family: var(--font-family-medium);
+  font-size: 11px;
+  line-height: 13.13px;
+  letter-spacing: 1.2999999523162842px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #E5E5E5;
+}
+
+@media (max-height: 667px) {
+  .subscription {
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+  }
+  .subscription__header {
+    margin-bottom: 1rem;
+  }
+  .subscription__description {
+    margin-bottom: 1rem;
+  }
+}

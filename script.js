@@ -11,10 +11,3 @@ document.querySelector('.icon__block--cross').addEventListener('click', (e) => {
   e.preventDefault();
   window.location.hash = '';
 });
-
-document.addEventListener('DOMContentLoaded', function() {
-  new fullpage('#fullpage', {
-    autoScrolling: true,
-    scrollHorizontally: true,
-  });
-});

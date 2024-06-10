@@ -1,0 +1,15 @@
+.offline-viewing {
+  height: var(--height-screen);
+  padding-top: 80px;
+  background: url(../images/offline-viewing.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+
+.offline-viewing__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 39px;
+}
